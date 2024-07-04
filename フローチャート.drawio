@@ -1,9 +1,27 @@
-<mxfile host="app.diagrams.net" modified="2024-07-04T00:51:21.524Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.6.4" etag="_nqddHtJAPKqWbYBuSCw" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-04T00:57:40.127Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="Xb2LeJaIaW6KvIQkPfJU" version="24.6.4" type="github">
   <diagram name="ページ1" id="keNha78bK8bbNO_JLpTN">
-    <mxGraphModel>
+    <mxGraphModel dx="1305" dy="1057" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="0ALcXvMNRgvKgIjr6bvS-1" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;ApprovalLogic で承認者がユーザーの&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;勤怠データを受け取る&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="299" y="320" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0ALcXvMNRgvKgIjr6bvS-2" value="start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="370" y="70" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0ALcXvMNRgvKgIjr6bvS-3" value="END" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="379" y="760" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0ALcXvMNRgvKgIjr6bvS-4" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;RegisterLogicでユーザーが登録する&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="299" y="190" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0ALcXvMNRgvKgIjr6bvS-6" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;RegisterLogicでユーザーが登録する&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="299" y="460" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0ALcXvMNRgvKgIjr6bvS-8" value="勤怠情報を承認する" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="300" y="560" width="210" height="100" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
