@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-04T02:13:05.268Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="hmNQY2fAWmb0humz7yBn" version="24.6.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-07-04T02:20:49.586Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="jIipd_720T-AP0vKIWkl" version="24.6.4" type="github" pages="2">
   <diagram name="ページ1" id="keNha78bK8bbNO_JLpTN">
     <mxGraphModel dx="2314" dy="1057" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -35,7 +35,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="eSO0QembcfBsp4LU2II4" name="ページ2">
-    <mxGraphModel dx="2304" dy="2335" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2230" dy="2335" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -91,7 +91,7 @@
         <mxCell id="HC8tUn9h5NvNzqABp6G7-89" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HC8tUn9h5NvNzqABp6G7-90" target="HC8tUn9h5NvNzqABp6G7-88">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HC8tUn9h5NvNzqABp6G7-90" value="LoginLogicの&lt;br&gt;&lt;div&gt;executeメソッドを実行&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+        <mxCell id="HC8tUn9h5NvNzqABp6G7-90" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;ApprovalLogic&lt;/span&gt;の&lt;br&gt;&lt;div&gt;&lt;span style=&quot;text-wrap: nowrap; background-color: initial;&quot;&gt;set&amp;nbsp;approval&lt;/span&gt;メソッドを実行&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="-690" y="-409" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HC8tUn9h5NvNzqABp6G7-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HC8tUn9h5NvNzqABp6G7-92" target="HC8tUn9h5NvNzqABp6G7-95">
@@ -146,62 +146,62 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HC8tUn9h5NvNzqABp6G7-105" value="&lt;b&gt;データベースに接続&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="-711" width="130" height="40" as="geometry" />
+          <mxGeometry x="160" y="-711" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HC8tUn9h5NvNzqABp6G7-106" value="start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="100" y="-811" width="50" height="40" as="geometry" />
+          <mxGeometry x="200" y="-811" width="50" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HC8tUn9h5NvNzqABp6G7-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HC8tUn9h5NvNzqABp6G7-109" target="HC8tUn9h5NvNzqABp6G7-118">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="310" y="-391" as="targetPoint" />
+            <mxPoint x="410" y="-391" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="HC8tUn9h5NvNzqABp6G7-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HC8tUn9h5NvNzqABp6G7-109">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="124.99999999999955" y="-431" as="targetPoint" />
+            <mxPoint x="224.99999999999955" y="-431" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="HC8tUn9h5NvNzqABp6G7-109" value="&lt;b&gt;勤怠情報を承認する&lt;/b&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="47.5" y="-541" width="155" height="80" as="geometry" />
+          <mxGeometry x="147.5" y="-541" width="155" height="80" as="geometry" />
         </mxCell>
         <mxCell id="HC8tUn9h5NvNzqABp6G7-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HC8tUn9h5NvNzqABp6G7-111" target="HC8tUn9h5NvNzqABp6G7-109">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HC8tUn9h5NvNzqABp6G7-111" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;ApprovalLogic から&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; font-weight: 700;&quot;&gt;承認待ちの勤怠データを受け取る&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="55" y="-641" width="140" height="70" as="geometry" />
+          <mxGeometry x="155" y="-641" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="HC8tUn9h5NvNzqABp6G7-112" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;ユーザーの勤怠情報を取得し&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;Attendanceインスタンスを作成&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="-431" width="200" height="50" as="geometry" />
+          <mxGeometry x="130" y="-431" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="HC8tUn9h5NvNzqABp6G7-113" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="80" y="-471" width="40" height="30" as="geometry" />
+          <mxGeometry x="180" y="-471" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HC8tUn9h5NvNzqABp6G7-114" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="190" y="-531" width="40" height="30" as="geometry" />
+          <mxGeometry x="290" y="-531" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HC8tUn9h5NvNzqABp6G7-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="125" y="-261" as="targetPoint" />
-            <mxPoint x="124.99999999999955" y="-381" as="sourcePoint" />
+            <mxPoint x="225" y="-261" as="targetPoint" />
+            <mxPoint x="224.99999999999955" y="-381" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="HC8tUn9h5NvNzqABp6G7-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.543;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HC8tUn9h5NvNzqABp6G7-106" target="HC8tUn9h5NvNzqABp6G7-105">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HC8tUn9h5NvNzqABp6G7-117" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;Attendanceインスタンス&lt;/span&gt;&lt;div&gt;&lt;b&gt;を返す&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="47.5" y="-361" width="170" height="40" as="geometry" />
+          <mxGeometry x="147.5" y="-361" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HC8tUn9h5NvNzqABp6G7-118" value="&lt;b&gt;管理者はコメントを&lt;/b&gt;&lt;div&gt;&lt;b&gt;付けることができる&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="-546" width="230" height="60" as="geometry" />
+          <mxGeometry x="370" y="-546" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HC8tUn9h5NvNzqABp6G7-119" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;RegisterLogic&lt;/span&gt;&lt;b&gt;に&lt;/b&gt;&lt;div&gt;&lt;b&gt;勤怠データを引き戻す&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="-461" width="230" height="60" as="geometry" />
+          <mxGeometry x="370" y="-461" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HC8tUn9h5NvNzqABp6G7-120" value="&lt;b&gt;ユーザーに引き戻された&lt;/b&gt;&lt;div&gt;&lt;b&gt;通知が送信される&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="-381" width="230" height="60" as="geometry" />
+          <mxGeometry x="380" y="-381" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HC8tUn9h5NvNzqABp6G7-122" value="END" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="90" y="-261" width="70" height="70" as="geometry" />
+          <mxGeometry x="190" y="-268" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="HC8tUn9h5NvNzqABp6G7-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.522;entryY=0.167;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HC8tUn9h5NvNzqABp6G7-111" target="HC8tUn9h5NvNzqABp6G7-111">
           <mxGeometry relative="1" as="geometry" />
@@ -209,47 +209,47 @@
         <mxCell id="HC8tUn9h5NvNzqABp6G7-124" value="にリダイレクト" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="-330" width="190" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="HC8tUn9h5NvNzqABp6G7-125" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;ApprovalLogicメソッド&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="-870" width="160" height="50" as="geometry" />
-        </mxCell>
         <mxCell id="HC8tUn9h5NvNzqABp6G7-126" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;全体&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="342.5" y="322.5" width="60" height="42.5" as="geometry" />
+          <mxGeometry x="-270" y="-711.5" width="60" height="42.5" as="geometry" />
         </mxCell>
         <mxCell id="HC8tUn9h5NvNzqABp6G7-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HC8tUn9h5NvNzqABp6G7-128" target="HC8tUn9h5NvNzqABp6G7-136">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HC8tUn9h5NvNzqABp6G7-128" value="waitEditサーブレットが&lt;br&gt;GETリクエストを取得" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="337.5" y="320" width="190" height="50" as="geometry" />
+          <mxGeometry x="-275" y="-714" width="190" height="50" as="geometry" />
         </mxCell>
         <mxCell id="HC8tUn9h5NvNzqABp6G7-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HC8tUn9h5NvNzqABp6G7-130" target="HC8tUn9h5NvNzqABp6G7-128">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HC8tUn9h5NvNzqABp6G7-130" value="START" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="397.5" y="200" width="70" height="70" as="geometry" />
+          <mxGeometry x="-215" y="-834" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="HC8tUn9h5NvNzqABp6G7-131" value="&lt;div&gt;edtiDAOの&lt;/div&gt;findByWaitEditメソッドを実行" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="322.5" y="480" width="220" height="60" as="geometry" />
+          <mxGeometry x="-290" y="-554" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HC8tUn9h5NvNzqABp6G7-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HC8tUn9h5NvNzqABp6G7-131" target="HC8tUn9h5NvNzqABp6G7-134">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="447.5" y="736" as="sourcePoint" />
-            <mxPoint x="432.5" y="740" as="targetPoint" />
+            <mxPoint x="-165" y="-298" as="sourcePoint" />
+            <mxPoint x="-180" y="-294" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="HC8tUn9h5NvNzqABp6G7-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="HC8tUn9h5NvNzqABp6G7-134">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="432.5" y="789.9999999999995" as="sourcePoint" />
-            <mxPoint x="432.5" y="673" as="targetPoint" />
+            <mxPoint x="-180" y="-244.00000000000045" as="sourcePoint" />
+            <mxPoint x="-180" y="-361" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="HC8tUn9h5NvNzqABp6G7-134" value="waitEditJSPにフォワード" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="337.5" y="572.5" width="190" height="50" as="geometry" />
+          <mxGeometry x="-275" y="-461.5" width="190" height="50" as="geometry" />
         </mxCell>
         <mxCell id="HC8tUn9h5NvNzqABp6G7-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HC8tUn9h5NvNzqABp6G7-136" target="HC8tUn9h5NvNzqABp6G7-131">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HC8tUn9h5NvNzqABp6G7-136" value="editDAOインスタンスを作成" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="337.5" y="392.5" width="190" height="50" as="geometry" />
+          <mxGeometry x="-275" y="-641.5" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HC8tUn9h5NvNzqABp6G7-137" value="set&amp;nbsp;approvalメソッド" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="150" y="-860" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
